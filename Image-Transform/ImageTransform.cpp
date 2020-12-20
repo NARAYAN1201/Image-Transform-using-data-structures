@@ -24,8 +24,7 @@ using uiuc::HSLAPixel;
  * @return The grayscale image.
  */
 PNG grayscale(PNG image) {
-  /// This function is already written for you so you can see how to
-  /// interact with our PNG class.
+  
   for (unsigned x = 0; x < image.width(); x++) {
     for (unsigned y = 0; y < image.height(); y++) {
       HSLAPixel & pixel = image.getPixel(x, y);
